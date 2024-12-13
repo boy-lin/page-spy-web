@@ -15,6 +15,7 @@
     "start:server": "page-spy-api",
     "build:doc": "vite build --mode doc",
     "build:client": "vite build --mode client",
+    "build": "npm run build:doc && npm run build:client",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
     "preversion": "bash scripts/check-branch.sh",
